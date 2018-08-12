@@ -39,6 +39,9 @@ p, label, input, textarea {
 ul {
     font-family: serif;
     font-size: 24px;
+    list-style-type: none;
+    margin: 20px;
+    padding: 0px;
 }
 
 p {
@@ -187,13 +190,7 @@ a {
     height: 100%;
 } 
 
-ul {
-    list-style: none;
-
-}
-
 .project {
-    border: red solid 10px;
     height: 200px;
     width: 300px;
     float: left;
@@ -207,7 +204,6 @@ ul {
     background: white;
     margin: auto;
     width: 960px;
-    
 }
 
 .clearfix {
@@ -222,7 +218,8 @@ li {
     background: teal;
     color: white;
     position: relative;
-    top: 100px;
+    /* top: -100px; */
+    bottom: 100px;
     padding: 20px 0px 20px 0px;
     text-align: center;
 }
